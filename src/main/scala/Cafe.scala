@@ -47,8 +47,7 @@ object Cafe extends App {
   }
 
   def combine(espresso: Espresso, frothedMilk: FrothedMilk): Cappuccino = "cappuccino"
-
-
+  
   //runs in any order
   def prepareCappuccino(): Future[Cappuccino] = {
 
