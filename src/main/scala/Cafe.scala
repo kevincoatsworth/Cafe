@@ -7,9 +7,7 @@ object Cafe extends App {
 
   type CoffeeBeans = String
   type GroundCoffee = String
-
   case class Water(temperature: Int)
-
   type Milk = String
   type FrothedMilk = String
   type Espresso = String
